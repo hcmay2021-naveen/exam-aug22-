@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1</title>
+</head>
+<body>
+    <script>
+        let unorder=document.createElement("ul");
+        unorder.id="menu";
+        document.body.append(unorder);
+        let list1=document.createElement("li");
+        list1.textContent="home"
+        unorder.appendChild(list1);
+        let list2=document.createElement("li");
+        list2.textContent="about"
+        list1.appendChild(list2);
+        let list3=document.createElement("li");
+        list3.textContent="services"
+        list2.appendChild(list3);
+        let list4=document.createElement("li");
+        list4.textContent="contact";
+        list3.appendChild(list4);
+        console.log(unorder);
+        console.log(list1);
+        console.log(list2);
+        console.log(list3);
+        console.log(list4);
+    </script>
+</body>
+</html>

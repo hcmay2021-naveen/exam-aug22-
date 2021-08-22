@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2</title>
+</head>
+<body>
+    
+    <div>
+        <p>welcome</p>
+    <table border="5px" id="tab">
+        <tr id="row1">
+            <th>Name</th>
+            <th>marks</th>
+        </tr>
+        <tr id="row2">
+            <td>Naveen</td>
+            <td>85</td>
+        </tr>
+        <tr id="row3">
+            <td>Ram</td>
+            <td>95</td>
+        </tr>
+        <tr id="row4">
+            <td>Charishma</td>
+            <td>83</td>
+        </tr>
+    </table>
+    <p>hello world</p>
+    </div>
+    
+   <script>
+       let table=document.getElementById("tab");
+       let tabprev=table.previousElementSibling;
+       let tabnext=table.nextElementSibling
+       console.log(tabnext);
+       console.log(tabprev)
+       console.log("---------------------------------------------------")
+       let tr1=document.getElementById("row1");
+       let tr1prev=tr1.nextElementSibling;
+       let tr1next=tr1.previousElementSibling;
+       console.log(tr1prev)
+       console.log(tr1next)
+       console.log("---------------------------------------------------")
+       let tr2=document.getElementById("row2");
+       let tr2prev=tr2.nextElementSibling;
+       let tr2next=tr2.previousElementSibling;
+       console.log(tr2prev)
+       console.log(tr2next)
+       console.log("---------------------------------------------------")
+       let tr3=document.getElementById("row3");
+       let tr3prev=tr3.nextElementSibling;
+       let tr3next=tr3.previousElementSibling;
+       console.log(tr3prev)
+       console.log(tr3next)
+       console.log("---------------------------------------------------")
+       let tr4=document.getElementById("row4");
+       let tr4prev=tr4.nextElementSibling;
+       let tr4next=tr4.previousElementSibling;
+       console.log(tr4prev)
+       console.log(tr4next)
+       console.log("---------------------------------------------------")
+      /* let tr1=document.getElementById("row1");
+       let tr1prev=tr1.nextElementSibling;
+       let tr1next=tr1.previousElementSibling;
+       console.log(tr1prev)
+       console.log(tr1next)*/ 
+   </script>
+</body>
+</html>
